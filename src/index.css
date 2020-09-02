@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Navbar */
+.brand-logo{
+  height: 60px;
+  margin: 0px 30px;
+}
+
+.brand-logo img {
+  height: -webkit-fill-available;
+}
+
+/* .active {
+  border-bottom: 2px solid black;
+} */
+
+/* BookSearch */
+.search-container{
+  /* max-height: 100vh; */
+  margin-top: 20%;
+}
+
+@media screen and (max-width: 670px) {
+  .search-container {
+    margin-top: 40%;
+  }
+}
+
+
+.input-field {
+  height: 50px;
+}
+
+#search {
+  font-size: 40px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-width: 670px) {
+  #search {
+    font-size: 30px;
+  }
+}
+
+
